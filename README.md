@@ -1,13 +1,15 @@
-# Design Patterns in Java – Singleton & Factory Method
+# COGNIZANT MANDATORY HANDS-ON ASSESSMENT
 
 ## Overview
 
-This repository contains Java implementations of two fundamental **Creational Design Patterns** from the Gang of Four (GoF) Design Patterns:
+This repository contains Java implementations of fundamental **Design Patterns** and **Algorithms** commonly used in software development. The projects demonstrate object-oriented programming concepts, efficient searching techniques, recursion, and software design principles through practical, real-world scenarios.
+
+The repository currently includes the following implementations:
 
 - Singleton Pattern
 - Factory Method Pattern
-
-These projects demonstrate how design patterns can improve code reusability, maintainability, scalability, and object creation mechanisms in real-world software development.
+- E-commerce Platform Search (Linear Search & Binary Search)
+- Financial Forecasting using Recursion
 
 ---
 
@@ -81,11 +83,75 @@ Opening Excel Document
 
 ---
 
+### 3. E-commerce Platform Search Function
+
+**Project Name:** `EcommerceSearchExample`
+
+#### Objective
+Implement and compare Linear Search and Binary Search algorithms for searching products efficiently in an e-commerce platform.
+
+#### Scenario
+Products are stored in an array and searched using their Product ID. Linear Search is performed on an unsorted array, while Binary Search is performed after sorting the products by Product ID.
+
+#### Features
+- Product class with searchable attributes
+- Linear Search implementation
+- Binary Search implementation
+- Time complexity comparison
+- Performance analysis using Big O notation
+
+#### Technologies Used
+- Java
+- Arrays
+- Searching Algorithms
+
+#### Expected Output
+
+```text
+Linear Search
+103 Phone Electronics
+
+Binary Search
+103 Phone Electronics
+```
+
+---
+
+### 4. Financial Forecasting using Recursion
+
+**Project Name:** `FinancialForecasting`
+
+#### Objective
+Develop a financial forecasting tool that predicts future investment values using a recursive approach.
+
+#### Scenario
+The application estimates future values based on an initial investment amount, annual growth rate, and the number of years. The project demonstrates recursion and discusses optimization techniques for recursive algorithms.
+
+#### Features
+- Recursive financial forecasting
+- Future value prediction
+- Time complexity analysis
+- Space complexity analysis
+- Recursive optimization techniques
+
+#### Technologies Used
+- Java
+- Recursion
+- Mathematical Computation
+
+#### Expected Output
+
+```text
+Future Value after 5 years = 16105.10
+```
+
+---
+
 ## Project Structure
 
 ### Singleton Pattern
 
-```
+```text
 SingletonPatternExample
 │
 ├── Logger.java
@@ -94,7 +160,7 @@ SingletonPatternExample
 
 ### Factory Method Pattern
 
-```
+```text
 FactoryMethodPatternExample
 │
 ├── Document.java
@@ -108,9 +174,29 @@ FactoryMethodPatternExample
 └── FactoryTest.java
 ```
 
+### E-commerce Platform Search
+
+```text
+EcommerceSearchExample
+│
+├── Product.java
+├── LinearSearch.java
+├── BinarySearch.java
+└── SearchTest.java
+```
+
+### Financial Forecasting
+
+```text
+FinancialForecasting
+│
+├── FinancialForecast.java
+└── ForecastTest.java
+```
+
 ---
 
-## Design Patterns Used
+## Concepts Covered
 
 ### Singleton Pattern
 
@@ -136,17 +222,69 @@ Defines an interface for creating objects while allowing subclasses to determine
 
 ---
 
+### Linear Search
+
+Searches elements sequentially until the required element is found.
+
+**Time Complexity**
+
+- Best Case: **O(1)**
+- Average Case: **O(n)**
+- Worst Case: **O(n)**
+
+**Applications**
+- Small datasets
+- Unsorted collections
+- Simple lookup operations
+
+---
+
+### Binary Search
+
+Searches efficiently by repeatedly dividing a sorted array into halves.
+
+**Time Complexity**
+
+- Best Case: **O(1)**
+- Average Case: **O(log n)**
+- Worst Case: **O(log n)**
+
+**Applications**
+- Large sorted datasets
+- Search engines
+- E-commerce product catalogs
+- Database indexing
+
+---
+
+### Recursion
+
+A programming technique where a method calls itself to solve smaller instances of the same problem.
+
+**Applications**
+- Financial Forecasting
+- Tree Traversal
+- Divide and Conquer Algorithms
+- Dynamic Programming
+
+---
+
 ## Learning Outcomes
 
 After completing these implementations, you will understand:
 
 - Creational Design Patterns
-- Object-Oriented Design Principles
+- Searching Algorithms
+- Recursive Programming
+- Big O Notation
+- Time Complexity Analysis
+- Object-Oriented Programming
 - Encapsulation
 - Abstraction
+- Polymorphism
 - Loose Coupling
+- Software Design Principles
 - Code Reusability
-- Maintainable Software Design
 
 ---
 
@@ -154,41 +292,67 @@ After completing these implementations, you will understand:
 
 - Java
 - JDK 8+
+- Object-Oriented Programming (OOP)
 - IntelliJ IDEA / Eclipse / VS Code
+- Git & GitHub
 
 ---
 
 ## How to Run
 
-1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Design-Patterns-Java.git
+git clone https://github.com/your-username/Java-Design-Patterns-And-Algorithms.git
 ```
 
-2. Open the project in your preferred Java IDE.
+### 2. Navigate to the Repository
 
-3. Compile and run:
+```bash
+cd Java-Design-Patterns-And-Algorithms
+```
+
+### 3. Open the Project
+
+Open the repository in your preferred Java IDE such as:
+- IntelliJ IDEA
+- Eclipse
+- Visual Studio Code
+
+### 4. Compile and Run
+
+Execute the following test classes:
 
 - `SingletonTest.java`
 - `FactoryTest.java`
+- `SearchTest.java`
+- `ForecastTest.java`
 
 ---
 
 ## Repository Purpose
 
-This repository was developed as part of a Java Design Patterns exercise to demonstrate the practical implementation of commonly used creational design patterns. The implementations are simple, modular, and suitable for learning the core concepts of software design patterns.
+This repository was developed as part of Java laboratory exercises to demonstrate the implementation of commonly used **Design Patterns** and **Algorithms**. Each project focuses on solving a practical software engineering problem while emphasizing clean coding practices, object-oriented design, algorithm analysis, and maintainable software development.
+
+---
+
+## Future Improvements
+
+- Add additional GoF Design Patterns
+- Implement Sorting Algorithms
+- Include Dynamic Programming examples
+- Add Unit Testing using JUnit
+- Improve project modularity using packages
+- Add UML Class Diagrams for each exercise
 
 ---
 
 ## Author
 
 **Bhumistha Sahoo**
-
-
-
 ---
 
 ## License
 
 This project is intended for educational and learning purposes.
+
