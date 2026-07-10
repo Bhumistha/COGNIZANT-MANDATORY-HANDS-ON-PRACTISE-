@@ -6,10 +6,17 @@ This repository contains Java implementations of fundamental **Design Patterns**
 
 The repository currently includes the following implementations:
 
+### Java Exercises
+
 - Singleton Pattern
 - Factory Method Pattern
 - E-commerce Platform Search (Linear Search & Binary Search)
 - Financial Forecasting using Recursion
+
+### Oracle SQL & PL/SQL Exercises
+
+- Control Structures
+- Stored Procedures
 
 ---
 
@@ -194,6 +201,14 @@ FinancialForecasting
 └── ForecastTest.java
 ```
 
+### Documentation
+
+```text
+COGNIZANT WEEK-1.docx
+WEEK2 COGNIZANT.docx
+WEEK3 COGNIZANT.docx
+```
+
 ---
 
 ## Concepts Covered
@@ -269,6 +284,74 @@ A programming technique where a method calls itself to solve smaller instances o
 
 ---
 
+---
+
+## Oracle SQL & PL/SQL Exercises
+
+### Control Structures
+
+The PL/SQL Control Structures exercise demonstrates the implementation of decision-making and iterative programming constructs in Oracle SQL*Plus using practical banking scenarios.
+
+#### Scenarios Implemented
+
+- Apply a **1% interest rate concession** for senior citizen customers.
+- Promote eligible customers to **VIP status** based on account balance.
+- Generate reminder messages for customers whose loan due dates fall within the next **30 days**.
+
+#### Concepts Covered
+
+- Anonymous PL/SQL Blocks
+- FOR Loops
+- IF-THEN Statements
+- UPDATE Statements
+- Transaction Control
+- DBMS_OUTPUT
+- JOIN Operations
+
+#### Technologies Used
+
+- Oracle SQL
+- Oracle PL/SQL
+- SQL*Plus
+
+---
+
+### Stored Procedures
+
+The Stored Procedures exercise demonstrates reusable PL/SQL procedures for automating common banking operations.
+
+#### Scenarios Implemented
+
+- Process monthly interest for all savings accounts.
+- Update employee salaries based on department bonus percentage.
+- Transfer funds securely between customer accounts after validating account balance.
+
+#### Concepts Covered
+
+- Stored Procedures
+- Parameters
+- SELECT INTO
+- Conditional Statements
+- Transaction Management
+- COMMIT
+- DBMS_OUTPUT
+
+#### Technologies Used
+
+- Oracle SQL
+- Oracle PL/SQL
+- SQL*Plus
+
+---
+
+### Documentation
+
+The complete SQL and PL/SQL implementations, explanations, sample data, and outputs are available in:
+
+- **COGNIZANT WEEK-1.docx**
+- **WEEK2 COGNIZANT.docx**
+- **WEEK3 COGNIZANT.docx**
+
 ## Learning Outcomes
 
 After completing these implementations, you will understand:
@@ -285,17 +368,30 @@ After completing these implementations, you will understand:
 - Loose Coupling
 - Software Design Principles
 - Code Reusability
-
+- SQL Programming
+- Oracle PL/SQL
+- Anonymous PL/SQL Blocks
+- Stored Procedures
+- Transaction Management
+- Database Programming
 ---
 
 ## Technologies
 
-- Java
-- JDK 8+
-- Object-Oriented Programming (OOP)
-- IntelliJ IDEA / Eclipse / VS Code
-- Git & GitHub
+### Programming Languages
 
+- Java
+- SQL
+- PL/SQL
+
+### Development Tools
+
+- Oracle SQL*Plus
+- Oracle Database
+- IntelliJ IDEA
+- Eclipse
+- Visual Studio Code
+- Git & GitHub
 ---
 
 ## How to Run
@@ -330,9 +426,22 @@ Execute the following test classes:
 
 ---
 
+## Oracle SQL & PL/SQL Programs
+
+The Oracle SQL and PL/SQL implementations are documented in **WEEK3 COGNIZANT.docx**.
+
+### Steps to Execute
+
+1. Open Oracle SQL*Plus.
+2. Execute the `CREATE TABLE` statements.
+3. Insert the sample data.
+4. Run the PL/SQL blocks or stored procedures.
+5. Verify the results using the provided `SELECT` statements.
+---
+
 ## Repository Purpose
 
-This repository was developed as part of Java laboratory exercises to demonstrate the implementation of commonly used **Design Patterns** and **Algorithms**. Each project focuses on solving a practical software engineering problem while emphasizing clean coding practices, object-oriented design, algorithm analysis, and maintainable software development.
+This repository was developed as part of the **Cognizant Mandatory Hands-on Assessment** to demonstrate practical implementations of Java Design Patterns, Algorithms, Oracle SQL, and Oracle PL/SQL concepts. The projects focus on solving real-world software engineering and banking scenarios while emphasizing clean coding practices, algorithm analysis, object-oriented programming, and database programming.
 
 ---
 
@@ -344,7 +453,11 @@ This repository was developed as part of Java laboratory exercises to demonstrat
 - Add Unit Testing using JUnit
 - Improve project modularity using packages
 - Add UML Class Diagrams for each exercise
-
+- Add more Oracle SQL exercises
+- Implement PL/SQL Functions
+- Implement Database Triggers
+- Add Cursor-based Programs
+- Implement Packages and Exception Handling
 ---
 
 ## Author
